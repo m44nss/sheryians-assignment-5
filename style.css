@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.nav {
+  display: flex;
+}
+.logo {
+  width: 200px;
+}
+.logo img {
+  height: 50px;
+}
+.navlinks {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+}
