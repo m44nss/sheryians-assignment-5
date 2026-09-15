@@ -138,3 +138,54 @@ body {
 .trending-search-bar button:hover {
   background: transparent;
 }
+.popular-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 130px;
+  margin-top: 70px;
+}
+.popular-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.popular-buttons button {
+  font-size: 17px;
+  border: 0px;
+  background: none;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.popular-buttons button:nth-child(1) {
+  background-color: #f0f0f0;
+  height: 35px;
+  width: fit-content;
+  padding: 0 18px;
+  border-radius: 999px;
+}
+
+.popular-bar > button:nth-child(1) {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  height: 35px;
+  width: fit-content;
+  padding: 0 18px;
+  border-radius: 15px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+}
+.popular-bar > button:nth-child(3) {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  height: 35px;
+  width: fit-content;
+  padding: 0 18px;
+  border-radius: 15px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+}
