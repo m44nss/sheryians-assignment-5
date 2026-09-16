@@ -189,3 +189,19 @@ body {
   gap: 8px;
   background: transparent;
 }
+.grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-top: 50px;
+  column-gap: 34px;
+  row-gap: 15px;
+}
+.card {
+  width: 100%;
+  aspect-ratio: 1.35 / 1;
+  background-color: #9ba0ad;
+  border-radius: 15px;
+  overflow: hidden;
+}
