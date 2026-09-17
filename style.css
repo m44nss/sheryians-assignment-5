@@ -108,6 +108,9 @@ body {
   font-size: 22px;
   cursor: pointer;
 }
+.search-btn i {
+  color: white;
+}
 .search-btn:hover {
   background: transparent;
 }
@@ -242,4 +245,63 @@ body {
 }
 i {
   color: #9ba0ad;
+}
+.sign-up {
+  margin-top: 20px;
+  display: flex;
+
+  justify-content: center;
+}
+
+.sign-up button {
+  height: 35px;
+  width: fit-content;
+  padding: 0 18px;
+  border-radius: 999px;
+  border: none;
+  background-color: #222;
+  color: white;
+}
+.marquee {
+  margin-top: 40px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee-track {
+  display: flex;
+  gap: 100px;
+  width: max-content;
+
+  animation: moveRight 20s linear infinite;
+}
+
+.marquee-track img {
+  width: 120px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 15px;
+  flex-shrink: 0;
+}
+.marquee-track img:nth-child(6) {
+  width: 80px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 15px;
+}
+.marquee-track img:nth-child(12) {
+  width: 80px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 15px;
+}
+
+@keyframes moveRight {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }
